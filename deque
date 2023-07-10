@@ -1,0 +1,24 @@
+DEQUEUE-(DOUBLE ENDED QUEUE)
+  A queue is a data structure in which whatever comes first will go out first, and it follows the FIFO (First-In-First-Out) policy
+  Deque is a linear data structure where the insertion and deletion operations are performed from both ends. 
+  
+Example 1: Appending-3
+append():- the right end of the deque. # 1,2,3
+appendleft():-  left end of the deque.  # 3,2,1
+
+Example 2: Popping Items Efficiently
+pop():- right end of the deque.
+popleft():-left end of the deque.
+
+Example 3: Accessing Items in a deque
+index(ele, beg, end):- This function returns the first index of the value mentioned in arguments, starting searching from beg till end index.
+insert(i, a) :-inserts the value mentioned in arguments(a) at index(i) specified in arguments.
+remove():-  removes the first occurrence of the value mentioned in arguments.
+count():-  counts the number of occurrences of value mentioned in arguments.
+
+Example 4: Size of a deque
+len(dequeue):- Return the current size of the dequeue.
+
+Example 5: Front and Back of a deque
+Deque[0] :-the front element of the deque using indexing with de[0].
+Deque[-1] :-the back element of the deque using indexing with de[-1].
